@@ -40,3 +40,5 @@ Additionally, the current weather section displays the current UV Index which ch
 
 &rightarrow;To delete search history, click the clear history button at the bottom of the search bar
 
+## Deployed Link
+https://fbabauta.github.io/Weather-Dashboard/
