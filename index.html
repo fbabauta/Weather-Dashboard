@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Dashboard</title>
+    <script src="https://kit.fontawesome.com/89237385c4.js" crossorigin="anonymous"></script>
+    
+    <!-- Link Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+
+    <!-- CSS Link-->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    
+    <!-- header -->
+    <div class="has-text-centered">
+        <nav class="navbar">
+            <div class="navbar-item">
+                <h1>Weather Dashboard</h1>
+            </div>
+        </nav>
+    </div>
+
+    <!-- side bar-->
+     <div class="columns">
+        <div>
+            <div class="column container" id="search-column">
+                <aside class="menu has-text-centered">
+                    <p class="menu-label">
+                        Search for a City:
+                    </p>
+                    <div class="field has-addons">
+                        <div class="control is-expanded">
+                            <input class="input" type="text" id="search-input">
+                        </div>
+                        <div class="control">
+                            <button class="button is-primary" id="search-btn"><span class="icon">
+                                    <i class="fas fa-search"></i>
+                                </span></a>
+                        </div>
+                    </div>
+                    <div class="list is-hoverable" id="city-list">
+                        <!-- add city buttons here -->
+                    </div>
+                    <div class="has-text-centered" id="clear-btn-container">
+                        <button type="button" class="button is-primary" id="clear-btn">Clear History</button>
+                    </div>
+                </aside>
+            </div>
+        </div>
+
+        <!-- main content -->
+        <div class="main-content container">
+            <div class="column">
+                <div class="columns">
+                    <div class="column">
+
+                        <!-- current weather card -->
+                        <div class="card">
+                            <header>
+                                <h2 class="card-header-title">
+                                    <span id="current-header"></span>
+                                    <img id="current-icon" src="">
+                                </h2>
+                            </header>
+                            <div id="current-info" class="card-content">
+                                </div>
+                                    <p>Temperature: <span id="current-temp"></span></p>
+                                </div>
+                                <div>
+                                    <p>Humidity: <span id="current-hum"></span></p>
+                                </div>
+                                <div>
+                                    <p>Windspeed: <span id="current-wind"></span></p>
+                                </div>
+                                <div>
+                                    <p>UV Index: <span id="current-uv"></span></p>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column menu-label">
+                <h4>Day Forecast:</h4>
+            </div>
+
+                    <!-- Forecast Cards -->
+                    <div class="columms">
+                        <div class="column">
+                            <div class="card forecast-card">
+                                <div class="card-content daily-card">
+                                    <h5 class="card-title daily-date"></h5>
+                                    <img class="daily-icon" src="">
+                                    <p class="card-text">Temp: <span class="daily-temp"></span></p>
+                                    <p class="card-text">Humidity: <span class="daily-hum"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card forecast-card">
+                            <div class="card-content daily-card">
+                                <h5 class="card-title daily-date"></h5>
+                                <img class="daily-icon" src="">
+                                <p class="card-text">Temp: <span class="daily-temp"></span></p>
+                                <p class="card-text">Humidity: <span class="daily-hum"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card forecast-card">
+                            <div class="card-content daily-card">
+                                <h5 class="card-title daily-date"></h5>
+                                <img class="daily-icon" src="">
+                                <p class="card-text">Temp: <span class="daily-temp"></span></p>
+                                <p class="card-text">Humidity: <span class="daily-hum"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card forecast-card">
+                            <div class="card-content daily-card">
+                                <h5 class="card-title daily-date"></h5>
+                                <img class="daily-icon" src="">
+                                <p class="card-text">Temp: <span class="daily-temp"></span></p>
+                                <p class="card-text">Humidity: <span class="daily-hum"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card forecast-card">
+                            <div class="card-content daily-card">
+                                <h5 class="card-title daily-date"></h5>
+                                <img class="daily-icon" src="">
+                                <p class="card-text">Temp: <span class="daily-temp"></span></p>    
+                                <p class="card-text">Humidity: <span class="daily-hum"></span></p>                                                             
+                            </div>
+                        </div>
+                    </div>
+
+                   
+                   
+                    <!--jQuery Link-->
+                    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+                    <!-- js file Link -->
+                    <script src="script.js"></script>
+
+                    <!-- moment.js Link-->
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+</body>
+
+</html>
