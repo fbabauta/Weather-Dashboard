@@ -1,0 +1,113 @@
+/* nav bar */
+.navbar {
+    background-color:  hsl(0, 0%, 48%);
+}
+
+.navbar-item {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: lighter !important;
+}
+
+h5 {
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+
+/* side bar */
+aside {
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+    height: 100% !important;
+}
+#search-column {
+     height: 100% !important;
+ }
+
+#city-list {
+    margin-top: 25px;
+}
+
+ a.list-item {
+    background-color: white;
+    color: hsl(0, 0%, 29%);
+}
+
+a.list-item:hover {
+    background-color: hsl(0, 0%, 68%);
+    color: white;
+}
+
+.list {
+    box-shadow: none;
+}
+
+.list-item:not(:last-child) {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.city-btn {
+    font-weight: lighter;
+    color: black;
+}
+
+
+/* main content */
+.forecast-card {
+    background-color: hsl(171, 100%, 41%);
+    color: white;
+}
+
+#current-info {
+    line-height: 2rem;
+}
+
+/* UV INDEX CLASSES */
+#current-uv {
+    padding: 8px;
+    color: white;
+    border-radius: 3px;
+}
+
+.low {
+    background-color: rgb(4, 170, 4);
+}
+.moderate {
+    background-color: rgb(245, 231, 108);
+}
+
+.high {
+background-color: rgb(245, 190, 11);
+}
+
+.severe {
+    background-color: red;
+}
+
+
+@media only screen and (min-width: 0px) {
+  .main-content {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .main-content {
+      margin-top: 20px;
+      margin-right: 20px;
+      margin-left: 0px;
+  }
+}
