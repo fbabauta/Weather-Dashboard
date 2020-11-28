@@ -17,7 +17,7 @@ Additionally, the current weather section displays the current UV Index which ch
 ## Technologies Used
 &rightarrow;Open Weather Maps API
 
-&rightarrow:OpenCage Geocoder API
+&rightarrow;OpenCage Geocoder API
 
 &rightarrow;JavaScript
 
