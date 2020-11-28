@@ -14,3 +14,13 @@ Additionally, the current weather section displays the current UV Index which ch
 ## Preview
 ![image](https://user-images.githubusercontent.com/70370805/100499376-01911f80-311e-11eb-8611-e4ad35473cf1.png)
 
+## Technologies Used
+&rightarrow;Open Weather Maps API
+&rightarrow:OpenCage Geocoder API
+&rightarrow;JavaScript
+&rightarrow;jQuery
+&rightarrow;Moment.js
+&rightarrow;Bulma
+&rightarrow;HTML
+&rightarrow;CSS
+
