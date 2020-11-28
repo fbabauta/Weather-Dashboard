@@ -18,7 +18,7 @@ h1 {
 
 h2 {
     font-size: 32px;
-    font-weight: lighter !important;
+    font-weight: lighter;
 }
 
 h5 {
@@ -30,10 +30,10 @@ h5 {
 aside {
     background-color: rgb(247, 247, 247);
     padding: 20px;
-    height: 100% !important;
+    height: 100%;
 }
 #search-column {
-     height: 100% !important;
+     height: 100%;
  }
 
 #city-list {
