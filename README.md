@@ -16,11 +16,27 @@ Additionally, the current weather section displays the current UV Index which ch
 
 ## Technologies Used
 &rightarrow;Open Weather Maps API
+
 &rightarrow:OpenCage Geocoder API
+
 &rightarrow;JavaScript
+
 &rightarrow;jQuery
+
 &rightarrow;Moment.js
+
 &rightarrow;Bulma
+
 &rightarrow;HTML
+
 &rightarrow;CSS
+
+## Instructional Guide
+&rightarrow;Type in a city name into the search bar and press search button
+
+&rightarrow;View current and future weather conditions for that city
+
+&rightarrow;Click on a city in your search history to be presented with that city's weather data again
+
+&rightarrow;To delete search history, click the clear history button at the bottom of the search bar
 
